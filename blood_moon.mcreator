@@ -1,0 +1,424 @@
+{
+  "mod_elements": [
+    {
+      "name": "NightDetection",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "night_detection",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eventful/procedures/NightDetectionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/CoreMechanics"
+    },
+    {
+      "name": "BloodMoonChangerOnEffectActiveTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_moon_changer_on_effect_active_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eventful/procedures/BloodMoonChangerOnEffectActiveTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/BloodMoonTextureChanges"
+    },
+    {
+      "name": "BloodMoonChanger",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_moon_changer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eventful/potion/BloodMoonChangerMobEffect.java"
+        ]
+      },
+      "path": "~/BloodMoonTextureChanges"
+    },
+    {
+      "name": "ToggleOff",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toggle_off",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eventful/procedures/ToggleOffProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/CoreMechanics"
+    },
+    {
+      "name": "BloodmoonToggle",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloodmoon_toggle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eventful/command/BloodmoonToggleCommand.java"
+        ]
+      },
+      "path": "~/CoreMechanics"
+    },
+    {
+      "name": "BloodMoonReverter",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_moon_reverter",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eventful/potion/BloodMoonReverterMobEffect.java"
+        ]
+      },
+      "path": "~/BloodMoonTextureChanges"
+    },
+    {
+      "name": "BloodMoonReverterActiveTickEffect",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_moon_reverter_active_tick_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eventful/procedures/BloodMoonReverterActiveTickEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/BloodMoonTextureChanges"
+    },
+    {
+      "name": "ActiveBloodMoonPlayerEffects",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "active_blood_moon_player_effects",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eventful/procedures/ActiveBloodMoonPlayerEffectsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/BloodMoonTextureChanges"
+    },
+    {
+      "name": "Abomination",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abomination",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eventful/entity/AbominationEntity.java",
+          "src/main/java/net/eventful/entity/model/AbominationModel.java",
+          "src/main/java/net/eventful/client/renderer/AbominationRenderer.java",
+          "src/main/resources/assets/eventful/models/item/abomination_spawn_egg.json"
+        ]
+      },
+      "path": "~/Entities/Abomination"
+    },
+    {
+      "name": "AbominationOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abomination_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eventful/procedures/AbominationOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entities/Abomination"
+    },
+    {
+      "name": "AbominationSpore",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abomination_spore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/eventful/forge/biome_modifier/abomination_spore_biome_modifier.json",
+          "src/main/java/net/eventful/entity/AbominationSporeEntity.java",
+          "src/main/java/net/eventful/client/renderer/AbominationSporeRenderer.java",
+          "src/main/resources/assets/eventful/models/item/abomination_spore_spawn_egg.json",
+          "src/main/java/net/eventful/entity/model/AbominationSporeModel.java"
+        ]
+      },
+      "path": "~/Entities/Abomination"
+    },
+    {
+      "name": "AbominationSporeExplosion",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abomination_spore_explosion",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eventful/procedures/AbominationSporeExplosionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entities/Abomination"
+    },
+    {
+      "name": "Primed",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "primed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eventful/potion/PrimedMobEffect.java"
+        ]
+      },
+      "path": "~/Entities/Abomination"
+    },
+    {
+      "name": "LocationPicker",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "location_picker",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eventful/procedures/LocationPickerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/CoreMechanics"
+    },
+    {
+      "name": "Bdebug",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bdebug",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eventful/command/BdebugCommand.java"
+        ]
+      },
+      "path": "~/CoreMechanics"
+    },
+    {
+      "name": "ValidEventLocation",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "valid_event_location",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eventful/procedures/ValidEventLocationProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "target_ent",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/CoreMechanics"
+    },
+    {
+      "name": "ArmoredSkeleton",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "armored_skeleton",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/eventful/forge/biome_modifier/armored_skeleton_biome_modifier.json",
+          "src/main/java/net/eventful/entity/ArmoredSkeletonEntity.java",
+          "src/main/java/net/eventful/entity/ArmoredSkeletonEntityProjectile.java",
+          "src/main/resources/assets/eventful/models/item/armored_skeleton_spawn_egg.json",
+          "src/main/java/net/eventful/entity/model/ArmoredSkeletonModel.java",
+          "src/main/java/net/eventful/client/renderer/ArmoredSkeletonRenderer.java"
+        ]
+      },
+      "path": "~/Entities/ArmoredSkeleton"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "night_checked",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "blood_moon_active",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    }
+  ],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "entity.blood_moon.abomination_spore": "Abomination Spore",
+      "effect.blood_moon.blood_moon_reverter": "Blood Moon Reverter",
+      "effect.eventful.primed": "Primed",
+      "effect.eventful.blood_moon_changer": "Blood Moon Changer",
+      "item.eventful.abomination_spawn_egg": "Abomination Spawn Egg",
+      "entity.eventful.abomination": "Abomination",
+      "effect.blood_moon.blood_moon_changer": "Blood Moon Changer",
+      "item.eventful.armored_skeleton_spawn_egg": "Armored Skeleton Spawn Egg",
+      "effect.blood_moon.primed": "Primed",
+      "item.blood_moon.armored_skeleton_spawn_egg": "Armored Skeleton Spawn Egg",
+      "item.eventful.abomination_spore_spawn_egg": "Abomination Spore Spawn Egg",
+      "item.blood_moon.abomination_spawn_egg": "Abomination Spawn Egg",
+      "item.blood_moon.abomination_spore_spawn_egg": "Abomination Spore Spawn Egg",
+      "entity.blood_moon.armored_skeleton": "Armored Skeleton",
+      "entity.blood_moon.abomination": "Abomination",
+      "entity.eventful.abomination_spore": "Abomination Spore",
+      "effect.eventful.blood_moon_reverter": "Blood Moon Reverter",
+      "entity.eventful.armored_skeleton": "Armored Skeleton"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "BloodMoonTextureChanges",
+        "children": []
+      },
+      {
+        "name": "CoreMechanics",
+        "children": []
+      },
+      {
+        "name": "Entities",
+        "children": [
+          {
+            "name": "Abomination",
+            "children": []
+          },
+          {
+            "name": "ArmoredSkeleton",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "eventful",
+    "modName": "Eventful",
+    "version": "1.0.0",
+    "description": "Blood Moons, Ghost Ships, and Alien Invasions",
+    "author": "MinoBanana, KillSwitchE50",
+    "websiteURL": "https://www.curseforge.com/members/minobanana/projects",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "geckolib"
+    ],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "MinoBanana, KillSwitchE50",
+    "modElementsPackage": "net.eventful"
+  },
+  "mcreatorVersion": 202400452410
+}

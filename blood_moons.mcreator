@@ -1,0 +1,199 @@
+{
+  "mod_elements": [
+    {
+      "name": "NightDetection",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "night_detection",
+      "metadata": {
+        "files": [
+          "src/main/java/net/bloodmoon/procedures/NightDetectionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/CoreMechanics"
+    },
+    {
+      "name": "BloodMoonChangerOnEffectActiveTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_moon_changer_on_effect_active_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/bloodmoon/procedures/BloodMoonChangerOnEffectActiveTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/BloodMoonTextureChanges"
+    },
+    {
+      "name": "BloodMoonChanger",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_moon_changer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/bloodmoon/potion/BloodMoonChangerMobEffect.java"
+        ]
+      },
+      "path": "~/BloodMoonTextureChanges"
+    },
+    {
+      "name": "ToggleOff",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toggle_off",
+      "metadata": {
+        "files": [
+          "src/main/java/net/bloodmoon/procedures/ToggleOffProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/CoreMechanics"
+    },
+    {
+      "name": "BloodmoonToggle",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloodmoon_toggle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/bloodmoon/command/BloodmoonToggleCommand.java"
+        ]
+      },
+      "path": "~/CoreMechanics"
+    },
+    {
+      "name": "BloodMoonReverter",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_moon_reverter",
+      "metadata": {
+        "files": [
+          "src/main/java/net/bloodmoon/potion/BloodMoonReverterMobEffect.java"
+        ]
+      },
+      "path": "~/BloodMoonTextureChanges"
+    },
+    {
+      "name": "BloodMoonReverterActiveTickEffect",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_moon_reverter_active_tick_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/bloodmoon/procedures/BloodMoonReverterActiveTickEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/BloodMoonTextureChanges"
+    },
+    {
+      "name": "ActiveBloodMoonPlayerEffects",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "active_blood_moon_player_effects",
+      "metadata": {
+        "files": [
+          "src/main/java/net/bloodmoon/procedures/ActiveBloodMoonPlayerEffectsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/BloodMoonTextureChanges"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "night_checked",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "blood_moon_active",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    }
+  ],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "effect.blood_moon.blood_moon_reverter": "Blood Moon Reverter",
+      "effect.blood_moon.blood_moon_changer": "Blood Moon Changer"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "BloodMoonTextureChanges",
+        "children": []
+      },
+      {
+        "name": "CoreMechanics",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "blood_moon",
+    "modName": "Blood Moon",
+    "version": "1.0.0",
+    "author": "aminf, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.bloodmoon"
+  },
+  "mcreatorVersion": 202400452410
+}

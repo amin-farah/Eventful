@@ -1,0 +1,34 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="Not specified"
+
+[[mods]]
+modId="eventful"
+version="1.0.0"
+displayName="Eventful"
+displayURL="https://www.curseforge.com/members/minobanana/projects"
+credits="MinoBanana, KillSwitchE50"
+authors="MinoBanana, KillSwitchE50"
+description="Blood Moons, Ghost Ships, and Alien Invasions"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.eventful]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+[[dependencies.eventful]]
+    modId="geckolib"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

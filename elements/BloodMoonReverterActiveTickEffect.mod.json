@@ -1,0 +1,7 @@
+{
+  "_fv": 73,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"event_trigger\" deletable=\"false\" x=\"40\" y=\"40\"><field name=\"trigger\">no_ext_trigger</field><next><block type=\"undo_texture\"><value name=\"texturetochangereverse\"><block type=\"text\"><field name=\"TEXT\">minecraft:textures/environment/moon_phases.png</field></block></value></block></next></block><block type=\"change_vanilla_texture\" x=\"219\" y=\"314\"><value name=\"texturetochange\"><block type=\"text\"><field name=\"TEXT\">minecraft:textures/environment/moon_phases.png</field></block></value><value name=\"newtexture\"><block type=\"text\"><field name=\"TEXT\">blood_moon:textures/blood_moon_phases.png</field></block></value></block></xml>"
+  }
+}
